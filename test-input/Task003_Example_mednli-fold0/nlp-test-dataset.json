@@ -1,0 +1,632 @@
+[
+  {
+    "uid":"Task003_Example_mednli_case0",
+    "text_parts":[
+      "The patient has a high fever.",
+      "The patient is ill."
+    ]
+  },
+  {
+    "uid":"Task003_Example_mednli_case4",
+    "text_parts":[
+      "MRI results indicate a brain tumor.",
+      "There's an abnormal growth in the patient's brain."
+    ]
+  },
+  {
+    "uid":"Task003_Example_mednli_case9",
+    "text_parts":[
+      "The patient has been diagnosed with hypertension.",
+      "The patient suffers from a high blood pressure condition."
+    ]
+  },
+  {
+    "uid":"Task003_Example_mednli_case10",
+    "text_parts":[
+      "The biopsy indicates malignant cells.",
+      "The patient has cancer cells."
+    ]
+  },
+  {
+    "uid":"Task003_Example_mednli_case12",
+    "text_parts":[
+      "Blood tests show elevated cholesterol levels.",
+      "The patient has high lipid levels in the blood."
+    ]
+  },
+  {
+    "uid":"Task003_Example_mednli_case15",
+    "text_parts":[
+      "The ultrasound shows gallstones.",
+      "The patient has stones in the gallbladder."
+    ]
+  },
+  {
+    "uid":"Task003_Example_mednli_case18",
+    "text_parts":[
+      "The patient experiences frequent episodes of dizziness.",
+      "The patient might have issues with balance or circulation."
+    ]
+  },
+  {
+    "uid":"Task003_Example_mednli_case22",
+    "text_parts":[
+      "The patient's thyroid levels are elevated.",
+      "The patient has an overactive thyroid."
+    ]
+  },
+  {
+    "uid":"Task003_Example_mednli_case26",
+    "text_parts":[
+      "Prenatal tests indicate the fetus is developing normally.",
+      "The fetus is not showing signs of abnormalities."
+    ]
+  },
+  {
+    "uid":"Task003_Example_mednli_case30",
+    "text_parts":[
+      "The patient frequently experiences episodes of blurred vision.",
+      "The patient might need eye care."
+    ]
+  },
+  {
+    "uid":"Task003_Example_mednli_case31",
+    "text_parts":[
+      "Blood tests indicate signs of kidney dysfunction.",
+      "The patient's kidneys might not be working optimally."
+    ]
+  },
+  {
+    "uid":"Task003_Example_mednli_case33",
+    "text_parts":[
+      "The patient's spinal MRI reveals a herniated disc.",
+      "The patient has a spine issue."
+    ]
+  },
+  {
+    "uid":"Task003_Example_mednli_case39",
+    "text_parts":[
+      "The patient's liver enzymes are elevated.",
+      "There might be issues with the patient's liver function."
+    ]
+  },
+  {
+    "uid":"Task003_Example_mednli_case40",
+    "text_parts":[
+      "The patient's blood sample revealed a malaria parasite.",
+      "The patient might have malaria."
+    ]
+  },
+  {
+    "uid":"Task003_Example_mednli_case42",
+    "text_parts":[
+      "The EEG test indicates irregular brainwave activity.",
+      "The patient's brain activity is not normal."
+    ]
+  },
+  {
+    "uid":"Task003_Example_mednli_case44",
+    "text_parts":[
+      "The patient's blood sugar levels are consistently high.",
+      "The patient may have diabetes."
+    ]
+  },
+  {
+    "uid":"Task003_Example_mednli_case45",
+    "text_parts":[
+      "Biopsy results indicate benign growth on the skin.",
+      "The growth on the patient's skin is not cancerous."
+    ]
+  },
+  {
+    "uid":"Task003_Example_mednli_case53",
+    "text_parts":[
+      "The patient displays symptoms of hypothyroidism.",
+      "The patient's thyroid is underactive."
+    ]
+  },
+  {
+    "uid":"Task003_Example_mednli_case55",
+    "text_parts":[
+      "The patient reports sudden weight gain and facial puffiness.",
+      "The patient might have Cushing's syndrome."
+    ]
+  },
+  {
+    "uid":"Task003_Example_mednli_case69",
+    "text_parts":[
+      "The patient's potassium levels are higher than average.",
+      "The patient may have hyperkalemia."
+    ]
+  },
+  {
+    "uid":"Task003_Example_mednli_case70",
+    "text_parts":[
+      "The patient complains of recurrent ear infections.",
+      "The patient has issues related to the ears."
+    ]
+  },
+  {
+    "uid":"Task003_Example_mednli_case72",
+    "text_parts":[
+      "The patient presents with decreased sensitivity in their fingertips.",
+      "The patient might have nerve damage or neuropathy."
+    ]
+  },
+  {
+    "uid":"Task003_Example_mednli_case73",
+    "text_parts":[
+      "The patient's echocardiogram shows a weakened heart muscle.",
+      "The patient has a heart condition."
+    ]
+  },
+  {
+    "uid":"Task003_Example_mednli_case76",
+    "text_parts":[
+      "The patient frequently experiences shortness of breath during light activity.",
+      "The patient may have a respiratory or cardiac condition."
+    ]
+  },
+  {
+    "uid":"Task003_Example_mednli_case77",
+    "text_parts":[
+      "The patient shows symptoms consistent with polycystic ovary syndrome (PCOS).",
+      "The patient may have a reproductive health issue."
+    ]
+  },
+  {
+    "uid":"Task003_Example_mednli_case80",
+    "text_parts":[
+      "The patient has been diagnosed with rheumatoid arthritis.",
+      "The patient might suffer from joint pain and inflammation."
+    ]
+  },
+  {
+    "uid":"Task003_Example_mednli_case83",
+    "text_parts":[
+      "The patient has been experiencing frequent migraines.",
+      "The patient frequently experiences severe headaches."
+    ]
+  },
+  {
+    "uid":"Task003_Example_mednli_case88",
+    "text_parts":[
+      "The patient is on anticoagulant therapy.",
+      "The patient is on medication to prevent blood clots."
+    ]
+  },
+  {
+    "uid":"Task003_Example_mednli_case90",
+    "text_parts":[
+      "The patient has a family history of glaucoma.",
+      "The patient may be at risk of developing eye problems."
+    ]
+  },
+  {
+    "uid":"Task003_Example_mednli_case96",
+    "text_parts":[
+      "The patient suffers from chronic sinusitis.",
+      "The patient has inflammation of the sinuses."
+    ]
+  },
+  {
+    "uid":"Task003_Example_mednli_case100",
+    "text_parts":[
+      "The patient has a high fever.",
+      "The patient is in perfect health."
+    ]
+  },
+  {
+    "uid":"Task003_Example_mednli_case104",
+    "text_parts":[
+      "MRI results indicate a brain tumor.",
+      "There's no issue found in the MRI scan."
+    ]
+  },
+  {
+    "uid":"Task003_Example_mednli_case109",
+    "text_parts":[
+      "The patient has been diagnosed with hypertension.",
+      "The patient's blood pressure is normal."
+    ]
+  },
+  {
+    "uid":"Task003_Example_mednli_case110",
+    "text_parts":[
+      "The biopsy indicates malignant cells.",
+      "There are no signs of cancer."
+    ]
+  },
+  {
+    "uid":"Task003_Example_mednli_case112",
+    "text_parts":[
+      "Blood tests show elevated cholesterol levels.",
+      "The patient's cholesterol levels are low."
+    ]
+  },
+  {
+    "uid":"Task003_Example_mednli_case115",
+    "text_parts":[
+      "The ultrasound shows gallstones.",
+      "The ultrasound shows a clear gallbladder."
+    ]
+  },
+  {
+    "uid":"Task003_Example_mednli_case118",
+    "text_parts":[
+      "The patient experiences frequent episodes of dizziness.",
+      "The patient is always stable and never dizzy."
+    ]
+  },
+  {
+    "uid":"Task003_Example_mednli_case122",
+    "text_parts":[
+      "The patient's thyroid levels are elevated.",
+      "The patient's thyroid levels are perfectly normal."
+    ]
+  },
+  {
+    "uid":"Task003_Example_mednli_case126",
+    "text_parts":[
+      "Prenatal tests indicate the fetus is developing normally.",
+      "There are complications with the fetus's development."
+    ]
+  },
+  {
+    "uid":"Task003_Example_mednli_case130",
+    "text_parts":[
+      "The patient frequently experiences episodes of blurred vision.",
+      "The patient's vision is crystal clear."
+    ]
+  },
+  {
+    "uid":"Task003_Example_mednli_case131",
+    "text_parts":[
+      "Blood tests indicate signs of kidney dysfunction.",
+      "The patient's kidney functions are optimal."
+    ]
+  },
+  {
+    "uid":"Task003_Example_mednli_case133",
+    "text_parts":[
+      "The patient's spinal MRI reveals a herniated disc.",
+      "The patient's spine is in perfect condition."
+    ]
+  },
+  {
+    "uid":"Task003_Example_mednli_case139",
+    "text_parts":[
+      "The patient's liver enzymes are elevated.",
+      "The patient's liver functions are within normal range."
+    ]
+  },
+  {
+    "uid":"Task003_Example_mednli_case140",
+    "text_parts":[
+      "The patient's blood sample revealed a malaria parasite.",
+      "The patient has no signs of infection."
+    ]
+  },
+  {
+    "uid":"Task003_Example_mednli_case142",
+    "text_parts":[
+      "The EEG test indicates irregular brainwave activity.",
+      "The EEG test results are normal."
+    ]
+  },
+  {
+    "uid":"Task003_Example_mednli_case144",
+    "text_parts":[
+      "The patient's blood sugar levels are consistently high.",
+      "The patient's blood sugar levels are normal."
+    ]
+  },
+  {
+    "uid":"Task003_Example_mednli_case145",
+    "text_parts":[
+      "Biopsy results indicate benign growth on the skin.",
+      "The skin growth is malignant."
+    ]
+  },
+  {
+    "uid":"Task003_Example_mednli_case153",
+    "text_parts":[
+      "The patient displays symptoms of hypothyroidism.",
+      "The patient has hyperthyroidism."
+    ]
+  },
+  {
+    "uid":"Task003_Example_mednli_case155",
+    "text_parts":[
+      "The patient reports sudden weight gain and facial puffiness.",
+      "The patient has maintained a consistent weight."
+    ]
+  },
+  {
+    "uid":"Task003_Example_mednli_case169",
+    "text_parts":[
+      "The patient's potassium levels are higher than average.",
+      "The patient's potassium levels are extremely low."
+    ]
+  },
+  {
+    "uid":"Task003_Example_mednli_case170",
+    "text_parts":[
+      "The patient complains of recurrent ear infections.",
+      "The patient has perfectly healthy ears."
+    ]
+  },
+  {
+    "uid":"Task003_Example_mednli_case172",
+    "text_parts":[
+      "The patient presents with decreased sensitivity in their fingertips.",
+      "The patient has a heightened sensitivity in their fingertips."
+    ]
+  },
+  {
+    "uid":"Task003_Example_mednli_case173",
+    "text_parts":[
+      "The patient's echocardiogram shows a weakened heart muscle.",
+      "The patient's heart muscle is robust and strong."
+    ]
+  },
+  {
+    "uid":"Task003_Example_mednli_case176",
+    "text_parts":[
+      "The patient frequently experiences shortness of breath during light activity.",
+      "The patient never experiences breathing difficulties."
+    ]
+  },
+  {
+    "uid":"Task003_Example_mednli_case177",
+    "text_parts":[
+      "The patient shows symptoms consistent with polycystic ovary syndrome (PCOS).",
+      "The patient shows no signs related to PCOS."
+    ]
+  },
+  {
+    "uid":"Task003_Example_mednli_case180",
+    "text_parts":[
+      "The patient has been diagnosed with rheumatoid arthritis.",
+      "The patient has perfectly healthy joints."
+    ]
+  },
+  {
+    "uid":"Task003_Example_mednli_case183",
+    "text_parts":[
+      "The patient has been experiencing frequent migraines.",
+      "The patient has never experienced a headache."
+    ]
+  },
+  {
+    "uid":"Task003_Example_mednli_case188",
+    "text_parts":[
+      "The patient is on anticoagulant therapy.",
+      "The patient is not on any blood-related medication."
+    ]
+  },
+  {
+    "uid":"Task003_Example_mednli_case190",
+    "text_parts":[
+      "The patient has a family history of glaucoma.",
+      "No one in the patient's family has ever had eye problems."
+    ]
+  },
+  {
+    "uid":"Task003_Example_mednli_case196",
+    "text_parts":[
+      "The patient suffers from chronic sinusitis.",
+      "The patient has perfectly clear sinuses."
+    ]
+  },
+  {
+    "uid":"Task003_Example_mednli_case200",
+    "text_parts":[
+      "The patient has a high fever.",
+      "The patient recently visited Africa."
+    ]
+  },
+  {
+    "uid":"Task003_Example_mednli_case204",
+    "text_parts":[
+      "MRI results indicate a brain tumor.",
+      "The patient is concerned about potential side effects."
+    ]
+  },
+  {
+    "uid":"Task003_Example_mednli_case209",
+    "text_parts":[
+      "The patient has been diagnosed with hypertension.",
+      "The patient works in a high-stress job."
+    ]
+  },
+  {
+    "uid":"Task003_Example_mednli_case210",
+    "text_parts":[
+      "The biopsy indicates malignant cells.",
+      "The patient enjoys reading in their spare time."
+    ]
+  },
+  {
+    "uid":"Task003_Example_mednli_case212",
+    "text_parts":[
+      "Blood tests show elevated cholesterol levels.",
+      "The patient doesn't consume alcohol."
+    ]
+  },
+  {
+    "uid":"Task003_Example_mednli_case215",
+    "text_parts":[
+      "The ultrasound shows gallstones.",
+      "The patient's favorite color is blue."
+    ]
+  },
+  {
+    "uid":"Task003_Example_mednli_case218",
+    "text_parts":[
+      "The patient experiences frequent episodes of dizziness.",
+      "The patient is considering changing their diet."
+    ]
+  },
+  {
+    "uid":"Task003_Example_mednli_case222",
+    "text_parts":[
+      "The patient's thyroid levels are elevated.",
+      "The patient plans to attend a wedding next week."
+    ]
+  },
+  {
+    "uid":"Task003_Example_mednli_case226",
+    "text_parts":[
+      "Prenatal tests indicate the fetus is developing normally.",
+      "The patient expressed interest in traveling to Asia."
+    ]
+  },
+  {
+    "uid":"Task003_Example_mednli_case230",
+    "text_parts":[
+      "The patient frequently experiences episodes of blurred vision.",
+      "The patient plans to buy a new car soon."
+    ]
+  },
+  {
+    "uid":"Task003_Example_mednli_case231",
+    "text_parts":[
+      "Blood tests indicate signs of kidney dysfunction.",
+      "The patient enjoys attending theater performances."
+    ]
+  },
+  {
+    "uid":"Task003_Example_mednli_case233",
+    "text_parts":[
+      "The patient's spinal MRI reveals a herniated disc.",
+      "The patient's favorite holiday is Christmas."
+    ]
+  },
+  {
+    "uid":"Task003_Example_mednli_case239",
+    "text_parts":[
+      "The patient's liver enzymes are elevated.",
+      "The patient enjoys watching historical documentaries."
+    ]
+  },
+  {
+    "uid":"Task003_Example_mednli_case240",
+    "text_parts":[
+      "The patient's blood sample revealed a malaria parasite.",
+      "The patient enjoys playing chess."
+    ]
+  },
+  {
+    "uid":"Task003_Example_mednli_case242",
+    "text_parts":[
+      "The EEG test indicates irregular brainwave activity.",
+      "The patient's favorite movie genre is comedy."
+    ]
+  },
+  {
+    "uid":"Task003_Example_mednli_case244",
+    "text_parts":[
+      "The patient's blood sugar levels are consistently high.",
+      "The patient is planning to learn how to cook Italian dishes."
+    ]
+  },
+  {
+    "uid":"Task003_Example_mednli_case245",
+    "text_parts":[
+      "Biopsy results indicate benign growth on the skin.",
+      "The patient recently went on a hiking trip."
+    ]
+  },
+  {
+    "uid":"Task003_Example_mednli_case253",
+    "text_parts":[
+      "The patient displays symptoms of hypothyroidism.",
+      "The patient recently started gardening."
+    ]
+  },
+  {
+    "uid":"Task003_Example_mednli_case255",
+    "text_parts":[
+      "The patient reports sudden weight gain and facial puffiness.",
+      "The patient recently attended a pottery workshop."
+    ]
+  },
+  {
+    "uid":"Task003_Example_mednli_case269",
+    "text_parts":[
+      "The patient's potassium levels are higher than average.",
+      "The patient enjoys camping during summers."
+    ]
+  },
+  {
+    "uid":"Task003_Example_mednli_case270",
+    "text_parts":[
+      "The patient complains of recurrent ear infections.",
+      "The patient is a fan of impressionist art."
+    ]
+  },
+  {
+    "uid":"Task003_Example_mednli_case272",
+    "text_parts":[
+      "The patient presents with decreased sensitivity in their fingertips.",
+      "The patient is considering adopting a parrot."
+    ]
+  },
+  {
+    "uid":"Task003_Example_mednli_case273",
+    "text_parts":[
+      "The patient's echocardiogram shows a weakened heart muscle.",
+      "The patient has started learning ballroom dancing."
+    ]
+  },
+  {
+    "uid":"Task003_Example_mednli_case276",
+    "text_parts":[
+      "The patient frequently experiences shortness of breath during light activity.",
+      "The patient has expressed interest in sailing."
+    ]
+  },
+  {
+    "uid":"Task003_Example_mednli_case277",
+    "text_parts":[
+      "The patient shows symptoms consistent with polycystic ovary syndrome (PCOS).",
+      "The patient recently visited a vineyard."
+    ]
+  },
+  {
+    "uid":"Task003_Example_mednli_case280",
+    "text_parts":[
+      "The patient has been diagnosed with rheumatoid arthritis.",
+      "The patient is an avid mountain climber."
+    ]
+  },
+  {
+    "uid":"Task003_Example_mednli_case283",
+    "text_parts":[
+      "The patient has been experiencing frequent migraines.",
+      "The patient is planning a trip to the Maldives."
+    ]
+  },
+  {
+    "uid":"Task003_Example_mednli_case288",
+    "text_parts":[
+      "The patient is on anticoagulant therapy.",
+      "The patient is learning to speak Spanish."
+    ]
+  },
+  {
+    "uid":"Task003_Example_mednli_case290",
+    "text_parts":[
+      "The patient has a family history of glaucoma.",
+      "The patient loves winter sports, especially skiing."
+    ]
+  },
+  {
+    "uid":"Task003_Example_mednli_case296",
+    "text_parts":[
+      "The patient suffers from chronic sinusitis.",
+      "The patient's favorite color is turquoise."
+    ]
+  }
+]

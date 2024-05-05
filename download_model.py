@@ -12,7 +12,8 @@ if __name__ == "__main__":
     output_dir = Path(args.output_dir) / args.model_name
     output_dir.mkdir(parents=True, exist_ok=True)
 
-    model = AutoModelForSequenceClassification.from_pretrained(args.model_name)
+    # Use cache_dir=None to avoid downloading the model to cache and then saving it to the output dir
+    model = AutoModelForSequenceClassification.from_pretrained(args.model_name, cache_dir=None)
     tokenizer = AutoTokenizer.from_pretrained(args.model_name)
     model.save_pretrained(output_dir)
     tokenizer.save_pretrained(output_dir)

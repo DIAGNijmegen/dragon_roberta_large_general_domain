@@ -5,9 +5,6 @@ RUN groupadd -r user && useradd -m --no-log-init -r -g user user
 RUN mkdir -p /opt/app /input /output \
     && chown user:user /opt/app /input /output
 
-RUN apt-get -y update
-RUN apt-get -y install git
-
 USER user
 WORKDIR /opt/app
 

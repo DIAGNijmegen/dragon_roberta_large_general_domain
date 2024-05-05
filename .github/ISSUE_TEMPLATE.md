@@ -1,4 +1,4 @@
-* DRAGON Baseline RoBERTa Large Multilingual version:
+* DRAGON RoBERTa Large General-domain version:
 * Python version:
 * Operating System:
 

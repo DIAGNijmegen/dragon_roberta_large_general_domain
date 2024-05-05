@@ -1,7 +1,7 @@
 from dragon_baseline import DragonBaseline
 
 
-class DragonBaselineRobertaLargeMultilingual(DragonBaseline):
+class DragonRobertaLargeGeneralDomain(DragonBaseline):
     def __init__(self, **kwargs):
         """
         Adapt the DRAGON baseline to use the xlm-roberta-large model.
@@ -17,4 +17,4 @@ class DragonBaselineRobertaLargeMultilingual(DragonBaseline):
 
 
 if __name__ == "__main__":
-    DragonBaselineRobertaLargeMultilingual().process()
+    DragonRobertaLargeGeneralDomain().process()

@@ -9,7 +9,7 @@ MEM_LIMIT="4g"
 
 for fold in 0
 do
-for task_name in "Task000_Example_clf" "Task001_Example_reg" "Task002_Example_multi_reg" "Task003_Example_mednli" "Task004_Example_ner" "Task005_Example_multi_clf" "Task006_Example_binary_clf" "Task007_Example_multi_binary_clf" "Task008_Example_multi_ner"
+for task_name in "Task101_Example_sl_bin_clf" "Task102_Example_sl_mc_clf" "Task103_Example_mednli" "Task104_Example_ml_bin_clf" "Task105_Example_ml_mc_clf" "Task106_Example_sl_reg" "Task107_Example_ml_reg" "Task108_Example_sl_ner" "Task109_Example_ml_ner"
 do
     jobname="$task_name-fold$fold"
 
@@ -38,7 +38,7 @@ do
         --pids-limit="256" \
         -v $SCRIPTPATH/test-input/$jobname:/input:ro \
         -v $SCRIPTPATH/test-output/$jobname:/output \
-        joeranbosma/dragon_baseline_roberta_large_multilingual:latest
+        joeranbosma/dragon_roberta_large_general_domain:latest
 
     docker run --rm \
         -v $SCRIPTPATH/test-output/$jobname:/output/ \

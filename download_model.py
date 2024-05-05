@@ -1,4 +1,5 @@
 import argparse
+import tempfile
 from pathlib import Path
 
 from transformers import AutoModelForSequenceClassification, AutoTokenizer
@@ -12,10 +13,11 @@ if __name__ == "__main__":
     output_dir = Path(args.output_dir) / args.model_name
     output_dir.mkdir(parents=True, exist_ok=True)
 
-    # Use cache_dir=None to avoid downloading the model to cache and then saving it to the output dir
-    model = AutoModelForSequenceClassification.from_pretrained(args.model_name, cache_dir=None)
-    tokenizer = AutoTokenizer.from_pretrained(args.model_name)
-    model.save_pretrained(output_dir)
-    tokenizer.save_pretrained(output_dir)
+    # Use a temp dir to avoid downloading the model to cache and then saving it to the output dir
+    with tempfile.TemporaryDirectory() as temp_dir:
+        model = AutoModelForSequenceClassification.from_pretrained(args.model_name, cache_dir=temp_dir)
+        tokenizer = AutoTokenizer.from_pretrained(args.model_name, cache_dir=temp_dir)
+        model.save_pretrained(output_dir)
+        tokenizer.save_pretrained(output_dir)
 
     print(f"Model and tokenizer saved to {args.output_dir}")

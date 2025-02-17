@@ -14,6 +14,8 @@ class DragonRobertaLargeGeneralDomain(DragonBaseline):
         self.gradient_checkpointing = False
         self.max_seq_length = 512
         self.learning_rate = 1e-05
+        self.num_train_epochs = 5
+        self.create_strided_training_examples = False
 
 
 if __name__ == "__main__":

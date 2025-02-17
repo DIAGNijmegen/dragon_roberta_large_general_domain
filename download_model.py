@@ -1,5 +1,4 @@
 import argparse
-from pathlib import Path
 
 from transformers import AutoModelForSequenceClassification, AutoTokenizer
 
@@ -11,4 +10,4 @@ if __name__ == "__main__":
     model = AutoModelForSequenceClassification.from_pretrained(args.model_name)
     tokenizer = AutoTokenizer.from_pretrained(args.model_name)
 
-    print(f"Model and tokenizer saved to HuggingFace cache.")
+    print(f"Model and tokenizer saved to HuggingFace cache (typically at ~/.cache/huggingface)")
